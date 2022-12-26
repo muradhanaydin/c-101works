@@ -35,7 +35,7 @@ namespace c__101_work{
             */
             //ODEV 3
             /*
-            Console.Write("Pozitif bir sayi adeti giriniz: ");
+            Console.Write("Pozitif bir sayi adeti giriniz(n m): ");
             int n = Int16.Parse(Console.ReadLine());
             string[] arr = new string[n];
             for(int s =0; s<n;s++){
