@@ -55,7 +55,7 @@ namespace c__101_work{
             Console.WriteLine($"Metindeki kelime sayisi: {words}\nMetindeki harf sayisi: {chars}");
             
             */
-
+            /*Odev 5
             string t1 = "Bugun hava cok guzel degilmi?";
             string t2 = "guzel degilmi";
 
@@ -103,7 +103,62 @@ namespace c__101_work{
 
             //Split
             Console.WriteLine(t1.Split(" ")[0]);
+            */
 
+            Console.WriteLine(DateTime.Now);
+            Console.WriteLine(DateTime.Now.Date);
+            Console.WriteLine(DateTime.Now.Day);
+            Console.WriteLine(DateTime.Now.Month);
+            Console.WriteLine(DateTime.Now.Year);
+            Console.WriteLine(DateTime.Now.Hour);
+            Console.WriteLine(DateTime.Now.Minute);
+            Console.WriteLine(DateTime.Now.Second);
+
+            Console.WriteLine(DateTime.Now.DayOfWeek);
+            Console.WriteLine(DateTime.Now.DayOfYear);
+
+            Console.WriteLine(DateTime.Now.ToLongDateString());
+            Console.WriteLine(DateTime.Now.ToShortDateString());
+            Console.WriteLine(DateTime.Now.ToLongTimeString());
+            Console.WriteLine(DateTime.Now.ToShortTimeString());
+           
+            Console.WriteLine(DateTime.Now.AddDays(2));
+            Console.WriteLine(DateTime.Now.AddHours(2));
+            Console.WriteLine(DateTime.Now.AddSeconds(15));
+            Console.WriteLine(DateTime.Now.AddMonths(5));
+            Console.WriteLine(DateTime.Now.AddYears(6));
+            Console.WriteLine(DateTime.Now.AddMicroseconds(12));
+
+            //DateTime Format 
+            Console.WriteLine(DateTime.Now.ToString("dd")); //24
+            Console.WriteLine(DateTime.Now.ToString("ddd")); //Sat
+            Console.WriteLine(DateTime.Now.ToString("dddd")); //Saturday
+
+            Console.WriteLine(DateTime.Now.ToString("MM")); //04
+            Console.WriteLine(DateTime.Now.ToString("MMM")); //Apr
+            Console.WriteLine(DateTime.Now.ToString("MMMM")); //April
+
+            Console.WriteLine(DateTime.Now.ToString("yy")); //22
+            Console.WriteLine(DateTime.Now.ToString("yyyy")); //2022
+
+            Console.WriteLine("--------------MATH LIBS-------------");
+            Console.WriteLine(Math.Abs(-52)); // Verilen degerin mutlak degerini dondurur
+            Console.WriteLine(Math.Sin(10)); // Verilen degerin sinus degerini dondurur
+            Console.WriteLine(Math.Cos(10)); // Verilen degerin cosinus degerini dondurur
+            Console.WriteLine(Math.Tan(10)); // Verilen degerin tanjant degerini dondurur
+            
+            Console.WriteLine(Math.Ceiling(22.4)); // Verilen degeri en yakin bir ust tamsayiya yuvarlar
+            Console.WriteLine(Math.Round(22.2)); // Verilen degeri en yakin tarafa yuvarlar
+            Console.WriteLine(Math.Floor(22.7)); // Verilen degeri bir alt tamsayiya yuvarlar
+
+            Console.WriteLine(Math.Max(0,1)); // Verilen 2 degerden buyugunu geri dondurur
+            Console.WriteLine(Math.Min(0,2)); // Verilen 2 degerden kucugunu geri dondurur
+
+            Console.WriteLine(Math.Pow(2,5)); // Verilen iki degerin ussunu alir (2,5) => 2^5
+            Console.WriteLine(Math.Sqrt(9)); // Verilen sayinin karekokunu alir
+            Console.WriteLine(Math.Log(9)); // Verilen sayiyi logaritma e tabanindaki degeri dondurur
+            Console.WriteLine(Math.Exp(3)); // Verilen sayiyi e^3 u verir
+            Console.WriteLine(Math.Log10(2)); // Verilen sayiyi logaritma 10 tabanindaki degeri dondurur
         }
     }
 }
